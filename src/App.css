@@ -96,3 +96,22 @@
   color: #6b5d52;
   line-height: 1.5;
 }
+
+/* футер */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 48px 40px;
+  background: #3b2f2f;
+  color: #fff;
+}
+.footer-col h4 {
+  margin-bottom: 12px;
+  color: #d9a566;
+}
+.footer-col p {
+  margin-bottom: 6px;
+  color: #e8ddd3;
+}
