@@ -1,7 +1,15 @@
-import GuestsPage from "./pages/GuestsPage";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+
+import "./App.css";
 
 function App() {
-  return <GuestsPage />;
+  return (
+    <>
+      <Header />
+      <Hero />
+    </>
+  );
 }
 
 export default App;
